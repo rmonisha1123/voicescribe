@@ -1,0 +1,21 @@
+com.cruxule.voicescribe.app-jetified-window-1.0.0-beta04-0 /Users/Monisha/.gradle/caches/transforms-3/003a22a5515e1f77f89701a46efbc2ec/transformed/jetified-window-1.0.0-beta04/res
+com.cruxule.voicescribe.app-jetified-window-java-1.0.0-beta04-1 /Users/Monisha/.gradle/caches/transforms-3/3c0e35d493ccd3f2bb8b07f96b013b9c/transformed/jetified-window-java-1.0.0-beta04/res
+com.cruxule.voicescribe.app-browser-1.4.0-2 /Users/Monisha/.gradle/caches/transforms-3/3df77d3f0e42ee5d73cdfadb8bcdc01c/transformed/browser-1.4.0/res
+com.cruxule.voicescribe.app-jetified-play-services-basement-18.1.0-3 /Users/Monisha/.gradle/caches/transforms-3/5eaba1f028ac62aaabee71faac8d9308/transformed/jetified-play-services-basement-18.1.0/res
+com.cruxule.voicescribe.app-jetified-annotation-experimental-1.1.0-4 /Users/Monisha/.gradle/caches/transforms-3/717758e51a3aff0b90b2556f8994e808/transformed/jetified-annotation-experimental-1.1.0/res
+com.cruxule.voicescribe.app-jetified-firebase-common-20.3.3-5 /Users/Monisha/.gradle/caches/transforms-3/97ba536cb97715cf3a6afeff735547bd/transformed/jetified-firebase-common-20.3.3/res
+com.cruxule.voicescribe.app-core-1.6.0-6 /Users/Monisha/.gradle/caches/transforms-3/cf72013d765e0f69e97cd3b9cbb09800/transformed/core-1.6.0/res
+com.cruxule.voicescribe.app-jetified-play-services-base-18.0.1-7 /Users/Monisha/.gradle/caches/transforms-3/f253648b0be692c533908993735bbd2e/transformed/jetified-play-services-base-18.0.1/res
+com.cruxule.voicescribe.app-debug-8 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/debug/res
+com.cruxule.voicescribe.app-main-9 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/res
+com.cruxule.voicescribe.app-google-services-10 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/generated/res/google-services/debug
+com.cruxule.voicescribe.app-pngs-11 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/generated/res/pngs/debug
+com.cruxule.voicescribe.app-resValues-12 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/generated/res/resValues/debug
+com.cruxule.voicescribe.app-rs-13 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/generated/res/rs/debug
+com.cruxule.voicescribe.app-mergeDebugResources-14 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.cruxule.voicescribe.app-mergeDebugResources-15 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.cruxule.voicescribe.app-merged_res-16 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/app/intermediates/merged_res/debug
+com.cruxule.voicescribe.app-packaged_res-17 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/packaged_res/debug
+com.cruxule.voicescribe.app-packaged_res-18 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/packaged_res/debug
+com.cruxule.voicescribe.app-packaged_res-19 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/packaged_res/debug
+com.cruxule.voicescribe.app-packaged_res-20 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/packaged_res/debug

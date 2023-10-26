@@ -1,4 +1,4 @@
-package com.example.voicescribe
+package com.cruxule.voicescribe
 
 import io.flutter.embedding.android.FlutterActivity
 
