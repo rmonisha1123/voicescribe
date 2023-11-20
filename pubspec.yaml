@@ -40,6 +40,9 @@ dependencies:
   firebase_core: ^2.20.0
   google_fonts: ^6.1.0
   font_awesome_flutter: ^10.6.0
+  file_picker: ^6.1.1
+  firebase_storage: ^11.5.1
+  just_audio: ^0.9.36
 
 dev_dependencies:
   flutter_test:
