@@ -1,3 +1,4 @@
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -77,13 +78,88 @@ class ListUploadedAUFiles extends StatelessWidget {
                     children: [
                       Text('${documents[index]['duration']} seconds'),
                       IconButton(onPressed: () {}, icon: Icon(Icons.share)),
-                      IconButton(onPressed: () {}, icon: Icon(Icons.more_vert))
+                      PopupMenuButton<String>(
+                        icon: Icon(Icons.more_vert),
+                        itemBuilder: (BuildContext context) {
+                          return <PopupMenuEntry<String>>[
+                            PopupMenuItem<String>(
+                              value: 'delete',
+                              child: ListTile(
+                                leading: Icon(Icons.delete),
+                                title: Text('Delete'),
+                              ),
+                            ),
+                            // Add more PopupMenuItems for other actions as needed
+                          ];
+                        },
+                        onSelected: (String action) {
+                          if (action == 'delete') {
+                            _showDeleteDialog(context, documents[index]);
+                          }
+                          // Handle other actions as needed
+                        },
+                      ),
                     ],
                   )
                 ],
               ),
             );
           },
+        );
+      },
+    );
+  }
+
+  // Function to delete the document from Firebase and storage
+  Future<void> _deleteDocument(DocumentSnapshot document) async {
+    try {
+      // Delete document from Firebase
+      await FirebaseFirestore.instance
+          .collection('Uploads')
+          .doc(document.id)
+          .delete();
+
+      // Delete file from Firebase Storage (adjust the path accordingly)
+      await FirebaseStorage.instance
+          .ref('Uploads/${document['name']}')
+          .delete();
+
+      print('Document deleted successfully.');
+    } catch (e) {
+      print('Error deleting document: $e');
+    }
+  }
+
+  // Function to show a confirmation dialog before deleting
+  Future<void> _showDeleteDialog(
+      BuildContext context, DocumentSnapshot document) async {
+    return showDialog<void>(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Delete Confirmation'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text('Are you sure you want to delete ${document['name']}?'),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Cancel'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: Text('Delete'),
+              onPressed: () async {
+                await _deleteDocument(document);
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
         );
       },
     );
