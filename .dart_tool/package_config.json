@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "_flutterfire_internals",
-      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.3.12",
+      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/_flutterfire_internals-1.3.13",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -123,7 +123,7 @@
     },
     {
       "name": "firebase_core",
-      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_core-2.22.0",
+      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_core-2.23.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -141,19 +141,19 @@
     },
     {
       "name": "firebase_storage",
-      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_storage-11.5.1",
+      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_storage-11.5.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_storage_platform_interface",
-      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_storage_platform_interface-5.0.2",
+      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_storage_platform_interface-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "firebase_storage_web",
-      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_storage_web-3.6.13",
+      "rootUri": "file:///Users/Monisha/.pub-cache/hosted/pub.dev/firebase_storage_web-3.6.14",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -428,7 +428,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-17T10:11:01.500216Z",
+  "generated": "2023-12-06T09:37:52.373649Z",
   "generator": "pub",
   "generatorVersion": "3.1.0"
 }

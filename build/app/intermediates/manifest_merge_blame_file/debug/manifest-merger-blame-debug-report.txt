@@ -55,8 +55,8 @@
 35    </queries>
 36
 37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-37-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:26:5-79
-37-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:26:22-76
+37-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+37-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
 38    <uses-permission android:name="android.permission.WAKE_LOCK" />
 38-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:24:5-68
 38-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:24:22-65
@@ -131,7 +131,7 @@
 91            android:directBootAware="true"
 91-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 92            android:exported="false" >
-92-->[com.google.firebase:firebase-auth-ktx:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/33fae4809c9fff9cc8016d019bb23e7c/transformed/jetified-firebase-auth-ktx-22.2.0/AndroidManifest.xml:10:13-37
+92-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:10:13-37
 93            <meta-data
 93-->[:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
@@ -157,17 +157,17 @@
 104                android:value="com.google.firebase.components.ComponentRegistrar" />
 104-->[:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 105            <meta-data
-105-->[com.google.firebase:firebase-auth-ktx:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/33fae4809c9fff9cc8016d019bb23e7c/transformed/jetified-firebase-auth-ktx-22.2.0/AndroidManifest.xml:11:13-13:85
+105-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:11:13-13:85
 106                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
-106-->[com.google.firebase:firebase-auth-ktx:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/33fae4809c9fff9cc8016d019bb23e7c/transformed/jetified-firebase-auth-ktx-22.2.0/AndroidManifest.xml:12:17-119
+106-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:12:17-119
 107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[com.google.firebase:firebase-auth-ktx:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/33fae4809c9fff9cc8016d019bb23e7c/transformed/jetified-firebase-auth-ktx-22.2.0/AndroidManifest.xml:13:17-82
+107-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:13:17-82
 108            <meta-data
-108-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:69:13-71:85
+108-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
 109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-109-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:70:17-109
+109-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
 110                android:value="com.google.firebase.components.ComponentRegistrar" />
-110-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:71:17-82
+110-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
 111            <meta-data
 111-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:17:13-19:85
 112                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
@@ -243,29 +243,29 @@
 147        </service>
 148
 149        <activity
-149-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:29:9-46:20
+149-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
 150            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-150-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:30:13-80
+150-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
 151            android:excludeFromRecents="true"
-151-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:31:13-46
+151-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
 152            android:exported="true"
-152-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:32:13-36
+152-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
 153            android:launchMode="singleTask"
-153-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:33:13-44
+153-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
 154            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-154-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:34:13-72
+154-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
 155            <intent-filter>
-155-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:35:13-45:29
+155-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
 156                <action android:name="android.intent.action.VIEW" />
-156-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:36:17-69
-156-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:36:25-66
+156-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+156-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
 157
 158                <category android:name="android.intent.category.DEFAULT" />
-158-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:17-76
-158-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:27-73
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
 159                <category android:name="android.intent.category.BROWSABLE" />
-159-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:17-78
-159-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:27-75
+159-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+159-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
 160
 161                <data
 161-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
@@ -275,29 +275,29 @@
 165            </intent-filter>
 166        </activity>
 167        <activity
-167-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:47:9-64:20
+167-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
 168            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-168-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:48:13-79
+168-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
 169            android:excludeFromRecents="true"
-169-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:49:13-46
+169-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
 170            android:exported="true"
-170-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:50:13-36
+170-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
 171            android:launchMode="singleTask"
-171-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:51:13-44
+171-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
 172            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-172-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:52:13-72
+172-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
 173            <intent-filter>
-173-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:53:13-63:29
+173-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
 174                <action android:name="android.intent.action.VIEW" />
-174-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:36:17-69
-174-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:36:25-66
+174-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+174-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
 175
 176                <category android:name="android.intent.category.DEFAULT" />
-176-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:17-76
-176-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:38:27-73
+176-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+176-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
 177                <category android:name="android.intent.category.BROWSABLE" />
-177-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:17-78
-177-->[com.google.firebase:firebase-auth:22.2.0] /Users/Monisha/.gradle/caches/transforms-3/df78e8ab53c5af7be4484e91c170ce7e/transformed/jetified-firebase-auth-22.2.0/AndroidManifest.xml:39:27-75
+177-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+177-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
 178
 179                <data
 179-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44

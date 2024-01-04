@@ -5,6 +5,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:just_audio/just_audio.dart';
+import 'package:voicescribe/Screens/segment_and_transcribe_audio.dart';
 import 'package:voicescribe/Utils/global_configs.dart';
 import 'package:voicescribe/Widgets/list_uploaded_au_files.dart';
 import 'package:voicescribe/Widgets/upload_audio_card.dart';
@@ -99,6 +100,12 @@ class HomeScreen extends StatelessWidget {
           });
 
           print('File uploaded successfully!');
+
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                  builder: (context) =>
+                      SegmentAndTranscribeAudio(fileName: fileName)));
         });
       } else {
         Navigator.pop(context); // Close the uploading dialog
