@@ -8,10 +8,6 @@
         "source": "com.cruxule.voicescribe.app-main-18:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.cruxule.voicescribe.app-merged_res-25:/drawable_launch_background.xml.flat",
-        "source": "com.cruxule.voicescribe.app-main-18:/drawable/launch_background.xml"
-    },
-    {
         "merged": "com.cruxule.voicescribe.app-merged_res-25:/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "com.cruxule.voicescribe.app-main-18:/mipmap-xxxhdpi/ic_launcher.png"
     },

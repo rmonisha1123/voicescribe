@@ -31,5 +31,6 @@ com.cruxule.voicescribe.app-packaged_res-29 /Users/Monisha/cruxule_solutions/MR/
 com.cruxule.voicescribe.app-packaged_res-30 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/packaged_res/debug
 com.cruxule.voicescribe.app-packaged_res-31 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/packaged_res/debug
 com.cruxule.voicescribe.app-packaged_res-32 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/debug
-com.cruxule.voicescribe.app-packaged_res-33 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/packaged_res/debug
-com.cruxule.voicescribe.app-packaged_res-34 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/packaged_res/debug
+com.cruxule.voicescribe.app-packaged_res-33 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/packaged_res/debug
+com.cruxule.voicescribe.app-packaged_res-34 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/packaged_res/debug
+com.cruxule.voicescribe.app-packaged_res-35 /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/packaged_res/debug

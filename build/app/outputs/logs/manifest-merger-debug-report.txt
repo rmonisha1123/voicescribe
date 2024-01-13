@@ -82,6 +82,7 @@ MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College proje
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:audio_session] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/audio_session/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
@@ -190,6 +191,8 @@ MERGED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/r
 MERGED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/audio_session/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41

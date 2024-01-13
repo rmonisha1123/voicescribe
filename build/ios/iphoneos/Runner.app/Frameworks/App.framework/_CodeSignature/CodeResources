@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		QpQwbJWPcwUHPMtVbWh3VOyEmCM=
+		LESrwlImYPwhGBusKN2acYQuCQc=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		iraqUgMLXUYHh0BxLoEkgSgLMSs=
+		G4uXTBlzkbYJxAUY4c4rWO/KQAE=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,11 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		lwa1hugLjt4BApKUwJbXBLTHHY4=
+		CntjmcQR/3a35mZFvw7hGQJ3B1I=
+		</data>
+		<key>flutter_assets/assets/backgrounds/bg.jpg</key>
+		<data>
+		cRI8WYVJoQk4LjZMRUnMcOiew/o=
 		</data>
 		<key>flutter_assets/assets/welcomesplash.json</key>
 		<data>
@@ -38,11 +42,19 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		R/JszgFiQ0IiY96isAxxvXBlvjw=
+		K7376daCN9ZdipWgy8M1HT+yeEA=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		P7bb/oR3EhwqCIH1M6LyTuBIWYU=
+		</data>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.css</key>
+		<data>
+		w0yScZgyE5s0j7sPuGOLXy3ISfM=
+		</data>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.js</key>
+		<data>
+		gPIgba2QIn/qWmLFfVogsD4MxPU=
 		</data>
 		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
 		<data>
@@ -83,14 +95,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			luzPyp/P2DumCFQG5DQEGYYKTfu9btd07tZ+vDSbQ40=
+			jgAPKT6RQWYc0cg06uvp/lwxM5Da79hG4jVEcNx6jl0=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+AAJSCchpw4vdGYwhm8NQr767sCqQv0tnf1GkvzEKkE=
+			lUhvzEcQ2+xPobS+daEOS1vDjjcG0yn/UhGus9VETjY=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -104,7 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oc7nDKFJtzGV2oYpfeNRbmf41i+j9XFN3056Bw2k9eI=
+			trvrRIrgX2UFagzhi+wg50Ek0hj01vNJPGtCt4/WB6U=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/backgrounds/bg.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H8XbggfoqJkmskRowUeLTapTxq7vQhJTIuD4dd46Aag=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/welcomesplash.json</key>
@@ -132,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3fx1EFi1JRah4Xg3k/Vl1YkAolJR+eJYkVXHvRd3cw=
+			5tKgV9uO1Mwl04GAWRUViBl+z2OcUNXA0CSafvvzCFQ=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -140,6 +159,20 @@
 			<key>hash2</key>
 			<data>
 			x6NX+tjyECiQtyzbbjyY8U2zoZ7GDbJtE+T+k/dzgI0=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.css</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OA6cPd56JZLHb6TFMDSJcQW1dQpoPp1gk3TDCrW7kJY=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/fluttertoast/assets/toastify.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zYIrdfUdie9n3mKKElLvN1sxiImupJ++RP/PCwgqbb0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf</key>
