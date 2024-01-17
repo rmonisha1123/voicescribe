@@ -1,19 +1,15 @@
 import 'dart:async';
-import 'dart:io';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:percent_indicator/circular_percent_indicator.dart';
+import 'package:voicescribe/Screens/search_screen.dart';
 import 'package:voicescribe/Utils/global_configs.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import '../Widgets/list_uploaded_au_files.dart';
 import 'upload_audio_screen.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 
 class HomeScreen extends StatefulWidget {
-  final String? fileName;
-  HomeScreen(this.fileName);
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -26,12 +22,10 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    modifyFileName();
   }
 
   @override
   Widget build(BuildContext context) {
-    print("------------------------------------- ${widget.fileName}");
     return Scaffold(
       appBar: AppBar(
         title: Center(child: GlobalConfigs.Appbar_Name),
@@ -40,14 +34,17 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: Column(children: [
           // 1st children
-          Container(
-            margin: EdgeInsets.all(10),
-            height: 60,
-            width: double.infinity,
-            child: Card(
-              elevation: 2,
-              child: Center(child: Text("Search")),
+          GestureDetector(
+            child: Container(
+              margin: EdgeInsets.all(10),
+              height: 60,
+              width: double.infinity,
+              child: Card(
+                elevation: 2,
+                child: Center(child: Text("Search")),
+              ),
             ),
+            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SearchScreen(),)),
           ),
 
           // 2nd children
@@ -111,9 +108,16 @@ class _HomeScreenState extends State<HomeScreen> {
           physics: NeverScrollableScrollPhysics(),
           itemCount: documents.length,
           itemBuilder: (context, index) {
-            // Replace this with your actual list item UI
+            bool uploadStatus = documents[index]['upload_status'];
+
+            // Inside your StreamBuilder's ListView.builder:
+            double percent = calculatePercent(
+              documents[index]['upload_status'],
+              documents[index]['audio_segment'],
+              documents[index]['converted_text'],
+            );
+
             return Container(
-              // color: Colors.amber,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -121,70 +125,62 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       IconButton(
                           onPressed: () {
-                            print('Tapped on ${documents[index]['name']}');
+                            print('Tapped on ${documents[index].id}');
                           },
                           icon: Icon(Icons.play_circle)),
-                      Tooltip(
-                        message: documents[index]
-                            ['name'], // Full name for the tooltip
-                        child: Container(
-                          width:
-                              75, // Set a fixed width or adjust based on your needs
-                          child: Text(
-                            documents[index]['name'],
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ),
-                      ),
+
+                      // Display the name only if upload_status is true
+                      uploadStatus
+                          ? Tooltip(
+                              message: documents[index]['name'],
+                              child: Container(
+                                width: 100,
+                                child: Text(
+                                  documents[index]['name'],
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ),
+                            )
+                          : Tooltip(
+                              message: documents[index]['name'],
+                              child: Container(
+                                width: 100,
+                                child: Text(
+                                  "Loading..",
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                              ),
+                            ),
                     ],
                   ),
                   Row(
                     children: [
-                      Text('${documents[index]['duration']} seconds'),
                       IconButton(onPressed: () {}, icon: Icon(Icons.share)),
-                      StreamBuilder<bool>(
-                        stream: checkMatchingSubcollectionStream(
-                            removeFileExtension(documents[index]['name'])),
-                        builder: (context, snapshot) {
-                          if (snapshot.connectionState ==
-                              ConnectionState.waiting) {
-                            return CircularProgressIndicator();
-                          } else if (snapshot.hasError) {
-                            return Text('Error: ${snapshot.error}');
-                          } else if (snapshot.data == true) {
-                            // Matching subcollection found, you can show a success indicator or take further actions
-                            return Icon(Icons.check, color: Colors.green);
-                          } else {
-                            // No matching subcollection found
-
-                            // Use a Timer to track the timeout
-                            Timer(Duration(seconds: 150), () {
-                              // After 2 minutes and 30 seconds, set the flag and show the alert icon
-                              if (!timeoutOccurred) {
-                                setState(() {
-                                  timeoutOccurred = true;
-                                });
-                              }
-                            });
-
-                            // Show the circular progress indicator or the alert icon based on the timeout flag
-                            return timeoutOccurred
-                                ? GestureDetector(
-                                    onTap: () {
-                                      // Show a toast message on pressing the alert icon
-                                      showToast(
-                                          "Something went wrong, kindly delete the audio & retry the process");
-                                    },
-                                    child: Icon(Icons.error, color: Colors.red),
-                                  )
-                                : Container(
-                                    height: 20,
-                                    width: 20,
-                                    child: CircularProgressIndicator(),
-                                  );
-                          }
-                        },
-                      ),
+                      // Display different icons based on upload status
+                      percent == 100.0
+                          ? Icon(Icons
+                              .check_circle) // Placeholder for indicating false status
+                          : GestureDetector(
+                              child: CircularPercentIndicator(
+                                animation: true,
+                                animationDuration: 1000,
+                                radius: 20, // Adjust the radius as needed
+                                lineWidth: 3, // Adjust the line width as needed
+                                percent: percent / 100,
+                                progressColor: CustomColors.AppBar_Bg_Theme1,
+                                backgroundColor:
+                                    CustomColors.AppBar_Bg_Theme1.withOpacity(
+                                        0.3),
+                                circularStrokeCap: CircularStrokeCap.round,
+                                center: Text(
+                                  "${percent.toInt()}%",
+                                  style: GoogleFonts.openSans(fontSize: 10),
+                                ),
+                              ),
+                              onTap: () {
+                                showToast("Audio is processing");
+                              },
+                            ), // Placeholder for indicating true status
                       PopupMenuButton<String>(
                         icon: Icon(Icons.more_vert),
                         itemBuilder: (BuildContext context) {
@@ -242,7 +238,7 @@ class _HomeScreenState extends State<HomeScreen> {
             TextButton(
               child: Text('Delete'),
               onPressed: () async {
-                await _deleteDocument(document);
+                await _deleteDocument(document.id, document['name']);
                 Navigator.of(context).pop();
               },
             ),
@@ -253,17 +249,17 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // Function to delete the document from Firebase and storage
-  Future<void> _deleteDocument(DocumentSnapshot document) async {
+  Future<void> _deleteDocument(String docID, String fileName) async {
     try {
       // Delete document from Firebase
       await FirebaseFirestore.instance
           .collection('Uploads')
-          .doc(document.id)
+          .doc(docID)
           .delete();
 
       // Delete file from Firebase Storage (adjust the path accordingly)
       await FirebaseStorage.instance
-          .ref('Uploads/${document['name']}')
+          .ref('Uploads/${docID}/${docID}.${fileName.split(".").last}')
           .delete();
 
       print('Document deleted successfully.');
@@ -272,60 +268,24 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  // Function to modify the filename by removing the file extension
-  void modifyFileName() {
-    modifiedFileName = removeFileExtension(widget.fileName ?? "");
-    print("************************ $modifiedFileName");
-  }
-
-  // Function to remove file extension
-  String removeFileExtension(String fileName) {
-    int dotIndex = fileName.lastIndexOf('.');
-    if (dotIndex != -1) {
-      return fileName.substring(0, dotIndex);
-    } else {
-      return fileName;
-    }
-  }
-
-  Stream<bool> checkMatchingSubcollectionStream(
-      String modifiedFileName) async* {
-    print("^^^^^^^^^^inside the function^^^^^^^^^^^^");
-    while (true) {
-      try {
-        var audiosDocSnapshot = await FirebaseFirestore.instance
-            .collection('Segmented Audios')
-            .doc('Audios')
-            .get();
-
-        if (audiosDocSnapshot.exists) {
-          var subcollectionSnapshot = await audiosDocSnapshot.reference
-              .collection(modifiedFileName)
-              .get();
-
-          if (subcollectionSnapshot.docs.isNotEmpty) {
-            print("Subcollections exist for $modifiedFileName");
-            // Matching subcollection found
-            yield true;
-          } else {
-            // No subcollections found
-            print("No matching subcollections for $modifiedFileName");
-            yield false;
-          }
-        } else {
-          // 'Audios' document does not exist
-          print("'Audios' document does not exist");
-          yield false;
-        }
-
-        await Future.delayed(
-            Duration(seconds: 5)); // Adjust the delay as needed
-      } catch (error) {
-        print('Error checking subcollection: $error');
-        yield false;
-        await Future.delayed(
-            Duration(seconds: 5)); // Adjust the delay as needed
+  double calculatePercent(
+      bool uploadStatus, String audioSegment, String convertedText) {
+    if (uploadStatus) {
+      if (convertedText == 'completed') {
+        return 100.0;
+      } else if (convertedText == 'in progress') {
+        return 87.5;
+      } else if (audioSegment == 'completed') {
+        return 75.0;
+      } else if (audioSegment == 'in progress') {
+        return 50.0;
+      } else if (audioSegment == 'not initiated') {
+        return 25.0;
+      } else {
+        return 100.0; // Default if none of the conditions match
       }
+    } else {
+      return 0.0; // If uploadStatus is false
     }
   }
 
