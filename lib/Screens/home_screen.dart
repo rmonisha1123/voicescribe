@@ -3,6 +3,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:just_audio/just_audio.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:voicescribe/Screens/search_screen.dart';
 import 'package:voicescribe/Utils/global_configs.dart';
@@ -15,8 +16,15 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  late String modifiedFileName;
-  bool timeoutOccurred = false;
+  AudioPlayer _audioPlayer = AudioPlayer(); // Added audio player instance
+  bool _isPlaying = false; // Flag to track playback state
+
+  @override
+  void dispose() {
+    _audioPlayer.dispose();
+    // TODO: implement dispose
+    super.dispose();
+  }
 
   @override
   void initState() {
@@ -44,7 +52,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Center(child: Text("Search")),
               ),
             ),
-            onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => SearchScreen(),)),
+            onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => SearchScreen(),
+                )),
           ),
 
           // 2nd children
@@ -126,6 +138,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       IconButton(
                           onPressed: () {
                             print('Tapped on ${documents[index].id}');
+                            _playAudio(
+                                documents[index].id, documents[index]['name']);
                           },
                           icon: Icon(Icons.play_circle)),
 
@@ -249,24 +263,57 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   // Function to delete the document from Firebase and storage
-  Future<void> _deleteDocument(String docID, String fileName) async {
-    try {
+  Future<void> _deleteDocument(String audioFileID, String fileName) async {
+  try {
+    // Fetch all doc IDs from "Transcribed Text" collection
+    QuerySnapshot transcribedTextSnapshot = await FirebaseFirestore.instance
+        .collection('Transcribed Text')
+        .get();
+
+    List<String> transcribedDocIDs = transcribedTextSnapshot.docs
+        .map((doc) => doc.id)
+        .toList();
+
+    // Extract the base part of fileName (before the underscore)
+    String baseFileName = audioFileID.split('_')[0];
+
+    // Check if the baseFileName matches any processed doc IDs
+    List<String> matchingDocIDs = transcribedDocIDs
+        .where((transcribedDocID) => transcribedDocID.split('_')[0] == baseFileName)
+        .toList();
+
+    if (matchingDocIDs.isNotEmpty) {
+      // Delete matching documents in "Transcribed Text" collection
+      for (String docID in matchingDocIDs) {
+        await FirebaseFirestore.instance
+            .collection('Transcribed Text')
+            .doc(docID)
+            .delete();
+
+        print('Document with ID $docID deleted successfully.');
+      }
+
       // Delete document from Firebase
       await FirebaseFirestore.instance
           .collection('Uploads')
-          .doc(docID)
+          .doc(audioFileID)
           .delete();
 
       // Delete file from Firebase Storage (adjust the path accordingly)
       await FirebaseStorage.instance
-          .ref('Uploads/${docID}/${docID}.${fileName.split(".").last}')
+          .ref('Uploads/${audioFileID}/${audioFileID}.${fileName.split(".").last}')
           .delete();
 
-      print('Document deleted successfully.');
-    } catch (e) {
-      print('Error deleting document: $e');
+
+      print('All matching documents deleted successfully.');
+    } else {
+      print('No matching documents found in "Transcribed Text" collection.');
     }
+  } catch (e) {
+    print('Error deleting documents: $e');
   }
+}
+
 
   double calculatePercent(
       bool uploadStatus, String audioSegment, String convertedText) {
@@ -300,5 +347,107 @@ class _HomeScreenState extends State<HomeScreen> {
       textColor: Colors.white,
       fontSize: 16.0,
     );
+  }
+
+  void _playAudio(String docID, String audioFileName) async {
+    try {
+      // Extract the file extension from the audioFileName
+      String audioFileExtension = audioFileName.split('.').last;
+      print("----------------------- $audioFileExtension");
+
+      String audioURL = await FirebaseStorage.instance
+          .ref('Uploads/$docID/$docID.$audioFileExtension')
+          .getDownloadURL();
+
+      await _audioPlayer.setUrl(audioURL);
+      _isPlaying = true; // Set initial state to playing
+      _showBottomSheet(audioFileName);
+      await _audioPlayer.play();
+      print('Audio playing successfully');
+    } catch (e) {
+      print('Error loading audio: $e');
+    }
+  }
+
+  void _pauseAudio() {
+    _audioPlayer.pause();
+    print('Audio paused');
+  }
+
+  void _resumeAudio() {
+    _audioPlayer.play();
+    print('Audio resumed');
+  }
+
+  void _seekForward() {
+    _audioPlayer.seek(_audioPlayer.position + Duration(seconds: 10));
+    print('Seek forward 10 seconds');
+  }
+
+  void _seekBackward() {
+    _audioPlayer.seek(_audioPlayer.position - Duration(seconds: 10));
+    print('Seek backward 10 seconds');
+  }
+
+  void _showBottomSheet(String fileName) {
+    showModalBottomSheet(
+      context: context,
+      builder: (BuildContext context) {
+        return Container(
+          padding: EdgeInsets.all(16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Row(
+                // mainAxisSize: MainAxisSize.min,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  IconButton(
+                    icon: Icon(Icons.fast_rewind),
+                    onPressed: _seekBackward,
+                  ),
+                  IconButton(
+                      icon: _isPlaying
+                          ? Icon(Icons.pause)
+                          : Icon(Icons.play_arrow),
+                      onPressed: () {
+                        _togglePlayback();
+                      }),
+                  IconButton(
+                    icon: Icon(Icons.fast_forward),
+                    onPressed: _seekForward,
+                  ),
+                ],
+              ),
+              SizedBox(height: 16),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text(fileName),
+                  IconButton(
+                    icon: Icon(Icons.close),
+                    onPressed: () {
+                      _audioPlayer.stop();
+                      Navigator.pop(context);
+                    },
+                  ),
+                ],
+              )
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Future<void> _togglePlayback() async {
+    if (_isPlaying) {
+      await _audioPlayer.pause();
+    } else {
+      await _audioPlayer.play();
+    }
+    setState(() {
+      _isPlaying = !_isPlaying; // Toggle the playback state
+    });
   }
 }
