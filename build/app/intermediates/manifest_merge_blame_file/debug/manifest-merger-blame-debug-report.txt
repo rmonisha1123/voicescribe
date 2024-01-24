@@ -1,0 +1,395 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cruxule.voicescribe"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission
+16-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-11:38
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-64
+18        android:maxSdkVersion="32" />
+18-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-35
+19
+20    <queries>
+20-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-19:15
+21        <intent>
+21-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:18
+22            <action android:name="android.intent.action.GET_CONTENT" />
+22-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-72
+22-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:21-69
+23
+24            <data android:mimeType="*/*" />
+24-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+24-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:19-41
+25        </intent>
+26        <intent>
+26-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+27            <action android:name="android.media.browse.MediaBrowserService" />
+27-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:13-79
+27-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:26:21-76
+28        </intent>
+29        <intent>
+29-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+30            <action android:name="androidx.media2.session.MediaSessionService" />
+30-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+30-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+31        </intent>
+32        <intent>
+32-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+33            <action android:name="androidx.media2.session.MediaLibraryService" />
+33-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+33-->[androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+34        </intent>
+35    </queries>
+36
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
+37-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:24:5-68
+38-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:24:22-65
+39    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+39-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:5-79
+39-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:22-76
+40    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+40-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:5-88
+40-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:22-85
+41    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+41-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:5-82
+41-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:22-79
+42    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+42-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:5-110
+42-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:22-107
+43
+44    <permission
+44-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+45        android:name="com.cruxule.voicescribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="com.cruxule.voicescribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+49
+50    <application
+51        android:name="io.flutter.app.FlutterMultiDexApplication"
+52        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+52-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+53        android:debuggable="true"
+54        android:icon="@mipmap/ic_launcher"
+55        android:label="voicescribe" >
+56        <activity
+57            android:name="com.cruxule.voicescribe.MainActivity"
+58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+59            android:exported="true"
+60            android:hardwareAccelerated="true"
+61            android:launchMode="singleTop"
+62            android:theme="@style/LaunchTheme"
+63            android:windowSoftInputMode="adjustResize" >
+64
+65            <!--
+66                 Specifies an Android theme to apply to this Activity as soon as
+67                 the Android process has started. This theme is visible to the user
+68                 while the Flutter UI initializes. After that, this theme continues
+69                 to determine the Window background behind the Flutter UI.
+70            -->
+71            <meta-data
+72                android:name="io.flutter.embedding.android.NormalTheme"
+73                android:resource="@style/NormalTheme" />
+74
+75            <intent-filter>
+76                <action android:name="android.intent.action.MAIN" />
+77
+78                <category android:name="android.intent.category.LAUNCHER" />
+79            </intent-filter>
+80        </activity>
+81        <!--
+82             Don't delete the meta-data below.
+83             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+84        -->
+85        <meta-data
+86            android:name="flutterEmbedding"
+87            android:value="2" />
+88
+89        <service
+89-->[:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:10:13-37
+93            <meta-data
+93-->[:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+94-->[:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+96            <meta-data
+96-->[:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+97-->[:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+100-->[:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+102            <meta-data
+102-->[:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+103-->[:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:11:13-13:85
+106                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar"
+106-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:12:17-119
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:13:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:69:13-71:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:70:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:71:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:17:13-19:85
+112                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+112-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:18:17-122
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:19:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:20:13-22:85
+115                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+115-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:21:17-111
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:22:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-storage:20.3.0] /Users/Monisha/.gradle/caches/transforms-3/fc517720a08136b43216ac868a562179/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:30:13-32:85
+118                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+118-->[com.google.firebase:firebase-storage:20.3.0] /Users/Monisha/.gradle/caches/transforms-3/fc517720a08136b43216ac868a562179/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:31:17-118
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-storage:20.3.0] /Users/Monisha/.gradle/caches/transforms-3/fc517720a08136b43216ac868a562179/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:32:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-storage:20.3.0] /Users/Monisha/.gradle/caches/transforms-3/fc517720a08136b43216ac868a562179/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:33:13-35:85
+121                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+121-->[com.google.firebase:firebase-storage:20.3.0] /Users/Monisha/.gradle/caches/transforms-3/fc517720a08136b43216ac868a562179/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:34:17-107
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-storage:20.3.0] /Users/Monisha/.gradle/caches/transforms-3/fc517720a08136b43216ac868a562179/transformed/jetified-firebase-storage-20.3.0/AndroidManifest.xml:35:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-analytics-ktx:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7b2935eb7ad5b214989e26b23ff9da5f/transformed/jetified-firebase-analytics-ktx-21.5.0/AndroidManifest.xml:11:13-13:85
+124                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+124-->[com.google.firebase:firebase-analytics-ktx:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7b2935eb7ad5b214989e26b23ff9da5f/transformed/jetified-firebase-analytics-ktx-21.5.0/AndroidManifest.xml:12:17-129
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-analytics-ktx:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7b2935eb7ad5b214989e26b23ff9da5f/transformed/jetified-firebase-analytics-ktx-21.5.0/AndroidManifest.xml:13:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/60aca630f636f622e3ad1126b1360b16/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:25:13-27:85
+127                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+127-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/60aca630f636f622e3ad1126b1360b16/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:26:17-120
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/60aca630f636f622e3ad1126b1360b16/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:27:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/60aca630f636f622e3ad1126b1360b16/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:28:13-30:85
+130                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+130-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/60aca630f636f622e3ad1126b1360b16/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:29:17-117
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-appcheck:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/60aca630f636f622e3ad1126b1360b16/transformed/jetified-firebase-appcheck-17.1.1/AndroidManifest.xml:30:17-82
+132            <meta-data
+132-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
+133                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+133-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+136                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+136-->[com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+139                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+139-->[com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/872ee345fcae9d2fe25df5a30823291f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+142                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+142-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/872ee345fcae9d2fe25df5a30823291f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/872ee345fcae9d2fe25df5a30823291f/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+145                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+145-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+147        </service>
+148
+149        <activity
+149-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
+150            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+150-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
+151            android:excludeFromRecents="true"
+151-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:31:13-46
+152            android:exported="true"
+152-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:32:13-36
+153            android:launchMode="singleTask"
+153-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:33:13-44
+154            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+154-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:34:13-72
+155            <intent-filter>
+155-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+156-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+157
+158                <category android:name="android.intent.category.DEFAULT" />
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+158-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+159                <category android:name="android.intent.category.BROWSABLE" />
+159-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+159-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+160
+161                <data
+161-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+162                    android:host="firebase.auth"
+163                    android:path="/"
+164                    android:scheme="genericidp" />
+165            </intent-filter>
+166        </activity>
+167        <activity
+167-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:47:9-64:20
+168            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+168-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:48:13-79
+169            android:excludeFromRecents="true"
+169-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:49:13-46
+170            android:exported="true"
+170-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:50:13-36
+171            android:launchMode="singleTask"
+171-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:51:13-44
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+172-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:52:13-72
+173            <intent-filter>
+173-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:53:13-63:29
+174                <action android:name="android.intent.action.VIEW" />
+174-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
+174-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
+176-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:27-73
+177                <category android:name="android.intent.category.BROWSABLE" />
+177-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:17-78
+177-->[com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:39:27-75
+178
+179                <data
+179-->[:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-44
+180                    android:host="firebase.auth"
+181                    android:path="/"
+182                    android:scheme="recaptcha" />
+183            </intent-filter>
+184        </activity>
+185
+186        <property
+186-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
+187            android:name="android.adservices.AD_SERVICES_CONFIG"
+187-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
+188            android:resource="@xml/ga_ad_services_config" />
+188-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
+189
+190        <provider
+190-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+191            android:name="com.google.firebase.provider.FirebaseInitProvider"
+191-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+192            android:authorities="com.cruxule.voicescribe.firebaseinitprovider"
+192-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+193            android:directBootAware="true"
+193-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+194            android:exported="false"
+194-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+195            android:initOrder="100" />
+195-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+196
+197        <activity
+197-->[com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+198            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+198-->[com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+199            android:exported="false"
+199-->[com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+201
+202        <receiver
+202-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+203            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+203-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+204            android:enabled="true"
+204-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+205            android:exported="false" >
+205-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+206        </receiver>
+207
+208        <service
+208-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+209            android:name="com.google.android.gms.measurement.AppMeasurementService"
+209-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+210            android:enabled="true"
+210-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+211            android:exported="false" />
+211-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+212        <service
+212-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+213            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+213-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+214            android:enabled="true"
+214-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+215            android:exported="false"
+215-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+216            android:permission="android.permission.BIND_JOB_SERVICE" />
+216-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+217
+218        <uses-library
+218-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Monisha/.gradle/caches/transforms-3/92269aef86fa36758d0dc5acb25d576f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+219            android:name="android.ext.adservices"
+219-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Monisha/.gradle/caches/transforms-3/92269aef86fa36758d0dc5acb25d576f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+220            android:required="false" />
+220-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/Monisha/.gradle/caches/transforms-3/92269aef86fa36758d0dc5acb25d576f/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+221        <uses-library
+221-->[androidx.window:window:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/8ef049c2ccf4d67a788e4b4c3c1ab699/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+222            android:name="androidx.window.extensions"
+222-->[androidx.window:window:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/8ef049c2ccf4d67a788e4b4c3c1ab699/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+223            android:required="false" />
+223-->[androidx.window:window:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/8ef049c2ccf4d67a788e4b4c3c1ab699/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+224        <uses-library
+224-->[androidx.window:window:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/8ef049c2ccf4d67a788e4b4c3c1ab699/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+225            android:name="androidx.window.sidecar"
+225-->[androidx.window:window:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/8ef049c2ccf4d67a788e4b4c3c1ab699/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+226            android:required="false" />
+226-->[androidx.window:window:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/8ef049c2ccf4d67a788e4b4c3c1ab699/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+227
+228        <meta-data
+228-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/fb3dbe4f92f2144e1fd335e8ab638b07/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+229            android:name="com.google.android.gms.version"
+229-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/fb3dbe4f92f2144e1fd335e8ab638b07/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+230            android:value="@integer/google_play_services_version" />
+230-->[com.google.android.gms:play-services-basement:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/fb3dbe4f92f2144e1fd335e8ab638b07/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+231    </application>
+232
+233</manifest>
