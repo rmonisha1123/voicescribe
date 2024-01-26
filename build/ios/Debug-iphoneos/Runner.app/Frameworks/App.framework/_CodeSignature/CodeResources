@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		LESrwlImYPwhGBusKN2acYQuCQc=
+		ykmEuU0IugwJsf+S0mwpMD4dfsA=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		G4uXTBlzkbYJxAUY4c4rWO/KQAE=
+		LlMxgQmVoh/8UW99yxfgR7XLTRM=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
-		o87DBLozHPggQBSz+/I1EvWKwac=
+		EqpJ028kd96LJ4y5SGY+4KxhHIQ=
 		</data>
 		<key>flutter_assets/assets/backgrounds/bg.jpg</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		Bi5dgWgtZwSduLee0xbGmG3s+vU=
+		cydM3zUGCPcju+1G0lNQbwwMkcw=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -70,11 +70,15 @@
 		</data>
 		<key>flutter_assets/packages/lsquare_production/assets/app_icon.png</key>
 		<data>
-		NI1ozmLwj3DnbgyC86D+dB3IBAs=
+		4UpYUWuKwSR2FsQfPVz4wBZXMrc=
 		</data>
 		<key>flutter_assets/packages/lsquare_production/assets/mgmt.png</key>
 		<data>
 		Bqf9fUv1KbPP1E+vt37VMhWPB+8=
+		</data>
+		<key>flutter_assets/packages/lsquare_production/assets/pin_marker.svg</key>
+		<data>
+		Bd87+ZwtLZuBXftbKxsP/s6q3dU=
 		</data>
 		<key>flutter_assets/packages/lsquare_production/assets/welcomesplash.json</key>
 		<data>
@@ -95,14 +99,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jgAPKT6RQWYc0cg06uvp/lwxM5Da79hG4jVEcNx6jl0=
+			+w5hDXifnpks0z9O3KYfpMckcocjjQGlp0wOm9LjJqM=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lUhvzEcQ2+xPobS+daEOS1vDjjcG0yn/UhGus9VETjY=
+			mXvkdCxu3FGqwJx0JfnzjOy+iIUiXKxriZh9FNy/IhE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -116,7 +120,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fBMjrtjpJeCZMKLZMb1xxl9iDVH/tE29M2THN6P8RcM=
+			M7OjUf7+MXdZVQR2/4ZkBD622HcAjAku6qLPwkJ2/sE=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/backgrounds/bg.jpg</key>
@@ -151,7 +155,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yp4ixCYmtaBHC/e0dt1A9imD0IobRrDMjfsr+hVgefk=
+			PETCjGbfXt2l2EM+sx4dxt29I4jIzRxVVwCeNWf/Oto=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -200,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			345TLAEqvFYxT7qTzvTSA1Kxn+ETpiI3rx/X5s+7hmU=
+			vbOJltWfAqddN/DLjR2sxOiwA/om4WaLOSjAr38tcG0=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/lsquare_production/assets/mgmt.png</key>
@@ -208,6 +212,13 @@
 			<key>hash2</key>
 			<data>
 			EOOpp6qXXSxjROAP31Mc0pXhD+Obdfy9jqVkjqjocl4=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/lsquare_production/assets/pin_marker.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			79ok5EPiahctlbSrz3CDeCQrzvhr7DIT8ZCdWFSHOzQ=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/lsquare_production/assets/welcomesplash.json</key>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cruxule.voicescribe.app-mergeDebugResources-23:/values-pa/values-pa.xml",
+            "outputFile": "com.cruxule.voicescribeProd.app-mergeDebugResources-23:/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/res/values-pa/values-pa.xml",

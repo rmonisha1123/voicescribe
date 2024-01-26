@@ -80,9 +80,7 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
-  void _playAudio(
-    String docID,
-  ) async {
+  void _playAudio(String docID) async {
     try {
       // Find the index of the underscore
       int underscoreIndex = docID.indexOf('_');
@@ -96,21 +94,40 @@ class _SearchScreenState extends State<SearchScreen> {
 
       // Print the result or use it as needed
       print("%%%%%%%%%%%%%%%%%%%% $newVariable");
-      String audioURL = await FirebaseStorage.instance
-          .ref('Segmented Audios/$newVariable/$docID')
-          .getDownloadURL();
 
-      await _audioPlayer.setUrl(audioURL);
-      _isPlaying = true; // Set initial state to playing
-      _showBottomSheet();
-      await _audioPlayer.play();
-      print('Audio playing successfully');
+      // Get the document from the "Uploads" collection using newVariable as the document ID
+      DocumentSnapshot docSnapshot = await FirebaseFirestore.instance
+          .collection('Uploads')
+          .doc(newVariable)
+          .get();
+
+      // Check if the document exists
+      if (docSnapshot.exists) {
+        // Access the "name" field from the document data
+        String name = docSnapshot['name'];
+
+        // Use the name as needed
+        print("Name from Firestore: $name");
+
+        // Now you can proceed with the rest of your code
+        String audioURL = await FirebaseStorage.instance
+            .ref('Segmented Audios/$newVariable/$docID')
+            .getDownloadURL();
+
+        await _audioPlayer.setUrl(audioURL);
+        _isPlaying = true; // Set initial state to playing
+        _showBottomSheet(name);
+        await _audioPlayer.play();
+        print('Audio playing successfully');
+      } else {
+        print('Document not found in "Uploads" collection.');
+      }
     } catch (e) {
       print('Error loading audio: $e');
     }
   }
 
-  void _showBottomSheet() {
+  void _showBottomSheet(String fileName) {
     showModalBottomSheet(
       context: context,
       builder: (BuildContext context) {
@@ -141,20 +158,19 @@ class _SearchScreenState extends State<SearchScreen> {
                 ],
               ),
               SizedBox(height: 16),
-              IconButton(
-                icon: Icon(Icons.close),
-                onPressed: () {
-                  _audioPlayer.stop();
-                  Navigator.pop(context);
-                },
-              ),
-              // Row(
-              //   mainAxisAlignment: MainAxisAlignment.spaceAround,
-              //   children: [
-              //     // Text(fileName),
-
-              //   ],
-              // )
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text(fileName),
+                  IconButton(
+                    icon: Icon(Icons.close),
+                    onPressed: () {
+                      _audioPlayer.stop();
+                      Navigator.pop(context);
+                    },
+                  ),
+                ],
+              )
             ],
           ),
         );

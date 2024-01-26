@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "289250968045",
-    "project_id": "voicescribe-d372d",
-    "storage_bucket": "voicescribe-d372d.appspot.com"
+    "project_number": "181464258417",
+    "project_id": "voicescribe-prod-c1fe8",
+    "storage_bucket": "voicescribe-prod-c1fe8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:289250968045:android:f33a33384e041ecfffa7e4",
+        "mobilesdk_app_id": "1:181464258417:android:398bdacc97b24db8d4c8d0",
         "android_client_info": {
-          "package_name": "com.cruxule.voicescribe"
+          "package_name": "com.cruxule.voicescribeProd"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDBLWxq2LYnMJJlFFDRZn3-TBfneEVDs3E"
+          "current_key": "AIzaSyBND_PAH1hhr5YIcopufN-yeyjBApaY9JU"
         }
       ],
       "services": {

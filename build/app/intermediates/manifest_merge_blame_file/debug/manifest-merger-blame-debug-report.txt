@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.cruxule.voicescribe"
+3    package="com.cruxule.voicescribeProd"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
@@ -75,12 +75,12 @@
 43
 44    <permission
 44-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-45        android:name="com.cruxule.voicescribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45        android:name="com.cruxule.voicescribeProd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 45-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 46        android:protectionLevel="signature" />
 46-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 47
-48    <uses-permission android:name="com.cruxule.voicescribe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48    <uses-permission android:name="com.cruxule.voicescribeProd.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 48-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
 48-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 49
@@ -90,9 +90,9 @@
 52-->[androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 53        android:debuggable="true"
 54        android:icon="@mipmap/ic_launcher"
-55        android:label="voicescribe" >
+55        android:label="VOICESCRIBE" >
 56        <activity
-57            android:name="com.cruxule.voicescribe.MainActivity"
+57            android:name="com.cruxule.voicescribeProd.MainActivity"
 58            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 59            android:exported="true"
 60            android:hardwareAccelerated="true"
@@ -318,7 +318,7 @@
 190-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
 191            android:name="com.google.firebase.provider.FirebaseInitProvider"
 191-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-192            android:authorities="com.cruxule.voicescribe.firebaseinitprovider"
+192            android:authorities="com.cruxule.voicescribeProd.firebaseinitprovider"
 192-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
 193            android:directBootAware="true"
 193-->[com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
