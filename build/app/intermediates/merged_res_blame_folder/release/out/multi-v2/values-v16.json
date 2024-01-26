@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cruxule.voicescribeProd.app-mergeReleaseResources-23:/values-v16/values-v16.xml",
+            "outputFile": "com.cruxule.voicescribeProd.app-mergeReleaseResources-24:/values-v16/values-v16.xml",
             "map": [
                 {
                     "source": "/Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/res/values-v16/values-v16.xml",

@@ -1,14 +1,16 @@
 -- Merging decision tree log ---
 application
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml:2:5-32:19
+MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:28:5-73:19
@@ -35,10 +37,14 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/
 MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:22:5-39:19
 MERGED from [com.google.android.play:integrity:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/0c3b5d3c1bdea1c224e3dab100f40789/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
 MERGED from [com.google.android.play:integrity:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/0c3b5d3c1bdea1c224e3dab100f40789/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/Monisha/.gradle/caches/transforms-3/e7af478dae00c72268de7a341c0ed352/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/Monisha/.gradle/caches/transforms-3/e7af478dae00c72268de7a341c0ed352/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/Monisha/.gradle/caches/transforms-3/f34d8e162e6998d70a8f81f34524a8bf/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/Monisha/.gradle/caches/transforms-3/f34d8e162e6998d70a8f81f34524a8bf/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/ac80e1da5f751918231d8e7b42fca398/transformed/jetified-play-services-measurement-sdk-21.5.0/AndroidManifest.xml:22:5-23:19
@@ -79,17 +85,23 @@ ADDED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voices
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml:1:1-33:12
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:just_audio] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
 MERGED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:google_maps_flutter_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:just_audio] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_api_headers] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:package_info_plus] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-24:12
 MERGED from [:audio_session] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:2:1-17:12
 MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-firestore:24.9.1] /Users/Monisha/.gradle/caches/transforms-3/1ed9379b64a74a1051be757eaabf388e/transformed/jetified-firebase-firestore-24.9.1/AndroidManifest.xml:2:1-26:12
@@ -106,18 +118,16 @@ MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.7] /Users/Monisha/
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/41a25f6934b22b06dc033903d102beaf/transformed/jetified-exoplayer-hls-2.18.7/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2815b67c5456ceaa4abf8dbbcbdca531/transformed/jetified-exoplayer-smoothstreaming-2.18.7/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:17:1-26:12
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/59f65a3f11c15c02712776e95b4190e4/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5d5cfe50c9bc6f970693b7997310f1bc/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/d82a72e977ed0a935dc110fae65234d7/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/f07fdafa5fd0eebacddc32aa049e7c6a/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:17:1-26:12
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.play:integrity:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/0c3b5d3c1bdea1c224e3dab100f40789/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/Monisha/.gradle/caches/transforms-3/e7af478dae00c72268de7a341c0ed352/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/Monisha/.gradle/caches/transforms-3/fe94c736dcef1677d429cbe3a36318b3/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/891b4981fc4a930ffd0fd89453002262/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/Monisha/.gradle/caches/transforms-3/f34d8e162e6998d70a8f81f34524a8bf/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/cc2bd19ab3059ac752779b3da955e0bd/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/ac80e1da5f751918231d8e7b42fca398/transformed/jetified-play-services-measurement-sdk-21.5.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:17:1-32:12
@@ -132,30 +142,35 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/Monisha/.
 MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/Monisha/.gradle/caches/transforms-3/b152f455b2abb0b8cff9fe6d214f56b9/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/fb3dbe4f92f2144e1fd335e8ab638b07/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/7c73a1e5322aecf140422f0b3744e5bc/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/3ffb94224f9da410dd70ee55b8eaae69/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:17:1-36:12
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/f5fe7fcdc4a85790ad0132f42320ca86/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/Monisha/.gradle/caches/transforms-3/a0d1335c61957f7e039afa1abc121581/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/7d2dc3c43c19df568b06f03cb6a604ed/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e3a75a40eecd4238c83bccf90bd5a984/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/b9f3567432a3e0e5299c889445579747/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/0c4e5436ea69fdb4c8069b7239254579/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.4.0] /Users/Monisha/.gradle/caches/transforms-3/a0d1335c61957f7e039afa1abc121581/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.4.1] /Users/Monisha/.gradle/caches/transforms-3/38045142da2868e406ea7e0fe274afbd/transformed/media-1.4.1/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.customview:customview:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f3cd314042dbe824c12be797127e381f/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/048d79cad2aeb7d4e7030f179cf29e49/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/3ffb94224f9da410dd70ee55b8eaae69/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/Monisha/.gradle/caches/transforms-3/c42f2ddee8db6a9b0e2203503a0b1062/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Monisha/.gradle/caches/transforms-3/0a88964060bcba8d8912ac8371b6a3b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/59f65a3f11c15c02712776e95b4190e4/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5d5cfe50c9bc6f970693b7997310f1bc/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/d82a72e977ed0a935dc110fae65234d7/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/f07fdafa5fd0eebacddc32aa049e7c6a/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/88588788122b1c0a05415a05e79a071b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/Monisha/.gradle/caches/transforms-3/d68f058b314c65e73e8bcb16aff13cf0/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/36c5b4ae9f43d285b58b9ad51b0e53a7/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f2467cd2e3a093617b745d6faf308635/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e375692810441d188bce475fb65e792c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/dbd16078a9b8f76514c437f32728f3e1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f04dd9130b35b7f85206468db1fcaa3e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Monisha/.gradle/caches/transforms-3/b048a57793dda2c617e62848b3847793/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Monisha/.gradle/caches/transforms-3/949a3b2eb52fb663007be31b5c5137c8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/Monisha/.gradle/caches/transforms-3/c42f2ddee8db6a9b0e2203503a0b1062/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/e3001571330cf0f5c35bf900ad6faf20/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e375692810441d188bce475fb65e792c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/36c5b4ae9f43d285b58b9ad51b0e53a7/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/dbd16078a9b8f76514c437f32728f3e1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f04dd9130b35b7f85206468db1fcaa3e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Monisha/.gradle/caches/transforms-3/bc95242d7ccf10adafca0d92b03140b0/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/Monisha/.gradle/caches/transforms-3/9cdfedf71945cf26d0ca4a9e48783eaa/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/Monisha/.gradle/caches/transforms-3/804d8bf4a982e22dafc991ffcfe11e82/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
@@ -181,28 +196,40 @@ uses-sdk
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml
-MERGED from [:just_audio] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:just_audio] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_plugin_android_lifecycle] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:just_audio] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/just_audio/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_api_headers] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/google_api_headers/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:package_info_plus] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/package_info_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:fluttertoast] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/fluttertoast/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:audio_session] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/audio_session/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:21:5-23:64
@@ -235,30 +262,26 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] /Use
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2815b67c5456ceaa4abf8dbbcbdca531/transformed/jetified-exoplayer-smoothstreaming-2.18.7/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/59f65a3f11c15c02712776e95b4190e4/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/59f65a3f11c15c02712776e95b4190e4/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5d5cfe50c9bc6f970693b7997310f1bc/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5d5cfe50c9bc6f970693b7997310f1bc/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/d82a72e977ed0a935dc110fae65234d7/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/d82a72e977ed0a935dc110fae65234d7/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/f07fdafa5fd0eebacddc32aa049e7c6a/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/f07fdafa5fd0eebacddc32aa049e7c6a/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/0c3b5d3c1bdea1c224e3dab100f40789/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.play:integrity:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/0c3b5d3c1bdea1c224e3dab100f40789/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/Monisha/.gradle/caches/transforms-3/e7af478dae00c72268de7a341c0ed352/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/Monisha/.gradle/caches/transforms-3/e7af478dae00c72268de7a341c0ed352/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/Monisha/.gradle/caches/transforms-3/fe94c736dcef1677d429cbe3a36318b3/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/Monisha/.gradle/caches/transforms-3/fe94c736dcef1677d429cbe3a36318b3/transformed/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/891b4981fc4a930ffd0fd89453002262/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/891b4981fc4a930ffd0fd89453002262/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/Monisha/.gradle/caches/transforms-3/f34d8e162e6998d70a8f81f34524a8bf/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/Monisha/.gradle/caches/transforms-3/f34d8e162e6998d70a8f81f34524a8bf/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/cc2bd19ab3059ac752779b3da955e0bd/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
 MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/Monisha/.gradle/caches/transforms-3/cc2bd19ab3059ac752779b3da955e0bd/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/Monisha/.gradle/caches/transforms-3/3254c5c80db78e78868d2235c4c90066/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/ac80e1da5f751918231d8e7b42fca398/transformed/jetified-play-services-measurement-sdk-21.5.0/AndroidManifest.xml:20:5-44
@@ -287,12 +310,12 @@ MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/Monish
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/fb3dbe4f92f2144e1fd335e8ab638b07/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/7c73a1e5322aecf140422f0b3744e5bc/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/Monisha/.gradle/caches/transforms-3/7c73a1e5322aecf140422f0b3744e5bc/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/3ffb94224f9da410dd70ee55b8eaae69/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/3ffb94224f9da410dd70ee55b8eaae69/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/f5fe7fcdc4a85790ad0132f42320ca86/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media2:media2-common:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/f5fe7fcdc4a85790ad0132f42320ca86/transformed/jetified-media2-common-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/Monisha/.gradle/caches/transforms-3/a0d1335c61957f7e039afa1abc121581/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/Monisha/.gradle/caches/transforms-3/a0d1335c61957f7e039afa1abc121581/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/7d2dc3c43c19df568b06f03cb6a604ed/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/7d2dc3c43c19df568b06f03cb6a604ed/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e3a75a40eecd4238c83bccf90bd5a984/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
@@ -301,8 +324,6 @@ MERGED from [androidx.loader:loader:1.0.0] /Users/Monisha/.gradle/caches/transfo
 MERGED from [androidx.loader:loader:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/b9f3567432a3e0e5299c889445579747/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/0c4e5436ea69fdb4c8069b7239254579/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/0c4e5436ea69fdb4c8069b7239254579/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/Monisha/.gradle/caches/transforms-3/a0d1335c61957f7e039afa1abc121581/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] /Users/Monisha/.gradle/caches/transforms-3/a0d1335c61957f7e039afa1abc121581/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.1] /Users/Monisha/.gradle/caches/transforms-3/38045142da2868e406ea7e0fe274afbd/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.4.1] /Users/Monisha/.gradle/caches/transforms-3/38045142da2868e406ea7e0fe274afbd/transformed/media-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f3cd314042dbe824c12be797127e381f/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
@@ -311,30 +332,42 @@ MERGED from [androidx.core:core-ktx:1.9.0] /Users/Monisha/.gradle/caches/transfo
 MERGED from [androidx.core:core-ktx:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/048d79cad2aeb7d4e7030f179cf29e49/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] /Users/Monisha/.gradle/caches/transforms-3/208048d41e64ea0d619811db943249e4/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/3ffb94224f9da410dd70ee55b8eaae69/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/3ffb94224f9da410dd70ee55b8eaae69/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/Monisha/.gradle/caches/transforms-3/c42f2ddee8db6a9b0e2203503a0b1062/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/Monisha/.gradle/caches/transforms-3/c42f2ddee8db6a9b0e2203503a0b1062/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Monisha/.gradle/caches/transforms-3/0a88964060bcba8d8912ac8371b6a3b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Monisha/.gradle/caches/transforms-3/0a88964060bcba8d8912ac8371b6a3b2/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/59f65a3f11c15c02712776e95b4190e4/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/59f65a3f11c15c02712776e95b4190e4/transformed/jetified-exoplayer-datasource-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5d5cfe50c9bc6f970693b7997310f1bc/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5d5cfe50c9bc6f970693b7997310f1bc/transformed/jetified-exoplayer-extractor-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/d82a72e977ed0a935dc110fae65234d7/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/d82a72e977ed0a935dc110fae65234d7/transformed/jetified-exoplayer-decoder-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/f07fdafa5fd0eebacddc32aa049e7c6a/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/f07fdafa5fd0eebacddc32aa049e7c6a/transformed/jetified-exoplayer-database-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/88588788122b1c0a05415a05e79a071b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/88588788122b1c0a05415a05e79a071b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/Monisha/.gradle/caches/transforms-3/d68f058b314c65e73e8bcb16aff13cf0/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] /Users/Monisha/.gradle/caches/transforms-3/d68f058b314c65e73e8bcb16aff13cf0/transformed/jetified-firebase-components-17.1.5/AndroidManifest.xml:18:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/36c5b4ae9f43d285b58b9ad51b0e53a7/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/36c5b4ae9f43d285b58b9ad51b0e53a7/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f2467cd2e3a093617b745d6faf308635/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f2467cd2e3a093617b745d6faf308635/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e375692810441d188bce475fb65e792c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e375692810441d188bce475fb65e792c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/dbd16078a9b8f76514c437f32728f3e1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/dbd16078a9b8f76514c437f32728f3e1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f04dd9130b35b7f85206468db1fcaa3e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f04dd9130b35b7f85206468db1fcaa3e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Monisha/.gradle/caches/transforms-3/b048a57793dda2c617e62848b3847793/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Monisha/.gradle/caches/transforms-3/b048a57793dda2c617e62848b3847793/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Monisha/.gradle/caches/transforms-3/949a3b2eb52fb663007be31b5c5137c8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/Monisha/.gradle/caches/transforms-3/949a3b2eb52fb663007be31b5c5137c8/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/Monisha/.gradle/caches/transforms-3/c42f2ddee8db6a9b0e2203503a0b1062/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/Monisha/.gradle/caches/transforms-3/c42f2ddee8db6a9b0e2203503a0b1062/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/e3001571330cf0f5c35bf900ad6faf20/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/e3001571330cf0f5c35bf900ad6faf20/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e375692810441d188bce475fb65e792c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/e375692810441d188bce475fb65e792c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/36c5b4ae9f43d285b58b9ad51b0e53a7/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/Monisha/.gradle/caches/transforms-3/36c5b4ae9f43d285b58b9ad51b0e53a7/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/dbd16078a9b8f76514c437f32728f3e1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/dbd16078a9b8f76514c437f32728f3e1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f04dd9130b35b7f85206468db1fcaa3e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Monisha/.gradle/caches/transforms-3/f04dd9130b35b7f85206468db1fcaa3e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Monisha/.gradle/caches/transforms-3/bc95242d7ccf10adafca0d92b03140b0/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Monisha/.gradle/caches/transforms-3/bc95242d7ccf10adafca0d92b03140b0/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.multidex:multidex:2.0.1] /Users/Monisha/.gradle/caches/transforms-3/9cdfedf71945cf26d0ca4a9e48783eaa/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
@@ -394,11 +427,11 @@ ADDED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voices
 	android:name
 		ADDED from /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/android/app/src/main/AndroidManifest.xml:30:13-44
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
-MERGED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 MERGED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:8:9-14:19
@@ -428,7 +461,13 @@ MERGED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
 	android:name
-		ADDED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+		ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
 ADDED from [:firebase_auth] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 	android:value
@@ -441,18 +480,22 @@ ADDED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College proje
 		ADDED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_storage] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_storage/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-126
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
-	android:value
-		ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
-	android:name
-		ADDED from [:cloud_firestore] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
 ADDED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
 	android:value
 		ADDED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_core] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-11:38
 	android:maxSdkVersion
@@ -461,6 +504,10 @@ ADDED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/re
 		ADDED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-64
 queries
 ADDED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-19:15
+MERGED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
+MERGED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-22:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:24:5-34:15
 MERGED from [androidx.media2:media2-session:1.2.1] /Users/Monisha/.gradle/caches/transforms-3/2e2a2b199d47aaf8b071915de6dc4e3b/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:24:5-34:15
 MERGED from [androidx.media:media:1.4.1] /Users/Monisha/.gradle/caches/transforms-3/38045142da2868e406ea7e0fe274afbd/transformed/media-1.4.1/AndroidManifest.xml:24:5-28:15
@@ -475,6 +522,18 @@ data
 ADDED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-44
 	android:mimeType
 		ADDED from [:file_picker] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:19-41
+intent#action:name:android.accounts.AccountAuthenticator
+ADDED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+action#android.accounts.AccountAuthenticator
+ADDED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-76
+	android:name
+		ADDED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-73
+intent#action:name:android.intent.action.VIEW+data:host:com.android.contacts+data:mimeType:vnd.android.cursor.item/*+data:scheme:content
+ADDED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-21:18
+action#android.intent.action.VIEW
+ADDED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-65
+	android:name
+		ADDED from [:contacts_service] /Users/Monisha/cruxule_solutions/MR/College project/repository/voicescribe/build/contacts_service/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-62
 meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
 ADDED from [com.google.firebase:firebase-auth-ktx:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/cc536a333cd739b7b823dc435ba919b5/transformed/jetified-firebase-auth-ktx-22.3.0/AndroidManifest.xml:11:13-13:85
 	android:value
@@ -493,6 +552,8 @@ MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.
 MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:23:5-67
@@ -513,16 +574,18 @@ MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.
 MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/Monisha/.gradle/caches/transforms-3/b53cc9154457d347a0e582b392c94400/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/Monisha/.gradle/caches/transforms-3/d4c7cee5cc97de4a0bda53f7339cdcc4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/547127081994e686294179618b7316f9/transformed/jetified-play-services-measurement-sdk-api-21.5.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/547127081994e686294179618b7316f9/transformed/jetified-play-services-measurement-sdk-api-21.5.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.7] /Users/Monisha/.gradle/caches/transforms-3/2ef7b980701478614e8af77c69c06b09/transformed/jetified-exoplayer-common-2.18.7/AndroidManifest.xml:24:5-79
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/Monisha/.gradle/caches/transforms-3/804d8bf4a982e22dafc991ffcfe11e82/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/Monisha/.gradle/caches/transforms-3/804d8bf4a982e22dafc991ffcfe11e82/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:9:5-79
 	android:name
@@ -541,10 +604,6 @@ ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/cac
 		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:30:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
 ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:36:25-66
 category#android.intent.category.DEFAULT
 ADDED from [com.google.firebase:firebase-auth:22.3.0] /Users/Monisha/.gradle/caches/transforms-3/07e140829421017f90967305c04f1e2f/transformed/jetified-firebase-auth-22.3.0/AndroidManifest.xml:38:17-76
 	android:name
@@ -623,9 +682,7 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /User
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/547127081994e686294179618b7316f9/transformed/jetified-play-services-measurement-sdk-api-21.5.0/AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/547127081994e686294179618b7316f9/transformed/jetified-play-services-measurement-sdk-api-21.5.0/AndroidManifest.xml:25:5-68
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:24:22-65
-uses-permission#com.google.android.gms.permission.AD_ID
+
 ADDED from [com.google.android.gms:play-services-measurement-api:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/7df72d0a6f658e95ba8b4d323e2931de/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:27:5-79
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:27:5-79
@@ -695,14 +752,30 @@ ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/c
 		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.4.2] /Users/Monisha/.gradle/caches/transforms-3/006666a33a88df9764b34f5fcf7a229e/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/Monisha/.gradle/caches/transforms-3/18b39d8c3ef67e33012dafaad7f62afc/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
 ADDED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/bd3615b2089f4fa87b544544b103ff16/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:5-110
 MERGED from [com.google.android.gms:play-services-measurement-impl:21.5.0] /Users/Monisha/.gradle/caches/transforms-3/62e34f38f6cd118634df11be13615023/transformed/jetified-play-services-measurement-impl-21.5.0/AndroidManifest.xml:26:5-110

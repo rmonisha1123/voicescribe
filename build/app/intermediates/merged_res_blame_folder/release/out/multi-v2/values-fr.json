@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.cruxule.voicescribeProd.app-mergeReleaseResources-23:/values-fr/values-fr.xml",
+            "outputFile": "com.cruxule.voicescribeProd.app-mergeReleaseResources-24:/values-fr/values-fr.xml",
             "map": [
                 {
                     "source": "/Users/Monisha/.gradle/caches/transforms-3/fb3dbe4f92f2144e1fd335e8ab638b07/transformed/jetified-play-services-basement-18.1.0/res/values-fr/values.xml",
@@ -72,6 +72,23 @@
                     }
                 },
                 {
+                    "source": "/Users/Monisha/.gradle/caches/transforms-3/03b94c215abf0a555f8b2e7445f1f4fe/transformed/jetified-play-services-base-18.1.0/res/values-fr/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,295,471,597,702,869,998,1115,1224,1398,1506,1687,1819,1975,2150,2219,2282",
+                        "endColumns": "101,175,125,104,166,128,116,108,173,107,180,131,155,174,68,62,79",
+                        "endOffsets": "294,470,596,701,868,997,1114,1223,1397,1505,1686,1818,1974,2149,2218,2281,2361"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,161,341,471,580,751,884,1005,1283,1461,1573,1758,1894,2054,2233,2306,2373",
+                        "endColumns": "105,179,129,108,170,132,120,112,177,111,184,135,159,178,72,66,83",
+                        "endOffsets": "156,336,466,575,746,879,1000,1113,1456,1568,1753,1889,2049,2228,2301,2368,2452"
+                    }
+                },
+                {
                     "source": "/Users/Monisha/.gradle/caches/transforms-3/5319a23b422726cf6bb452c8e30b8b01/transformed/jetified-exoplayer-core-2.18.7/res/values-fr/values-fr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -86,23 +103,6 @@
                         "startOffsets": "2666,2740,2805,2874,2946,3029,3106,3203,3296",
                         "endColumns": "73,64,68,71,82,76,96,92,82",
                         "endOffsets": "2735,2800,2869,2941,3024,3101,3198,3291,3374"
-                    }
-                },
-                {
-                    "source": "/Users/Monisha/.gradle/caches/transforms-3/20a2f527893ff226da01fd32c9485734/transformed/jetified-play-services-base-18.0.1/res/values-fr/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,295,471,597,702,869,998,1115,1224,1398,1506,1687,1819,1975,2150,2219,2282",
-                        "endColumns": "101,175,125,104,166,128,116,108,173,107,180,131,155,174,68,62,79",
-                        "endOffsets": "294,470,596,701,868,997,1114,1223,1397,1505,1686,1818,1974,2149,2218,2281,2361"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,161,341,471,580,751,884,1005,1283,1461,1573,1758,1894,2054,2233,2306,2373",
-                        "endColumns": "105,179,129,108,170,132,120,112,177,111,184,135,159,178,72,66,83",
-                        "endOffsets": "156,336,466,575,746,879,1000,1113,1456,1568,1753,1889,2049,2228,2301,2368,2452"
                     }
                 }
             ]
