@@ -1,6 +1,6 @@
 # voicescribe
 
-A new Flutter project.
+Transforming voice/audio into text and retrieve audios
 
 ## Getting Started
 
